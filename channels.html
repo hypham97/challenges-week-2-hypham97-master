@@ -1,0 +1,89 @@
+<!DOCTYPE html >
+<!-- #1 #structure #document -->
+<html>
+<head>
+    
+    <!-- #1 #structure #title -->
+    <div>
+        
+    <title>chatter|app</title>
+    </div>
+
+    <!-- We need to specify the character encoding, since we use chinese characters -->
+    <meta charset="UTF-8">
+
+    <!-- #2 #css #elements -->
+    <style>
+
+        /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        /*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color:#3F51B5;
+            color: white;
+        }
+
+        button {
+            color: black;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+        }
+
+
+        /*styles for channel area*/
+        h2 {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+        em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+            text-decoration: underline;
+            color: #3F51B5;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<!-- channel area -->
+<!-- #1 #channels #app-bar -->
+<h1 style="height:65px;vertical-align:bottom;"><img src="https://ip.lfe.mw.tum.de/sections/moocus.png" alt="Donald" style="height:56px;"> chatter|app</h1>
+
+<!-- #1 #channels #topics -->
+<h2>#Yummy <img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="White Star" style="height:20px;"></h2>
+<h2><em><a href="chat.html" target="_blank">#SevenContinents</a></em> <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="Black Star" style="height:20px;"></h2>
+<h2>#KillerApp <img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="White Star" style="height:20px;"></h2>
+<h2>#FirstPersonOnMars <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="Black Star" style="height:20px;"></h2>
+<h2>#Octoberfest <img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="White Star" style="height:20px;"></h2>
+
+<!-- #1 #channels #buttons -->
+<button><img src="https://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt="Lightbulb" style="height:15px;"> new</button>
+<button><img src="https://ip.lfe.mw.tum.de/sections/fire.png" alt="Fire" style="height:15px;"> trending</button>
+<button><img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="Black Star" style="height:15px;"> favorites</button>
+
+</body>
+</html>
